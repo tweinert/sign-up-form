@@ -46,6 +46,7 @@ form {
 
 form .header {
   flex: 1;
+  background-color: rgb(240, 240, 240);
 }
 
 .header > p {
@@ -54,12 +55,27 @@ form .header {
 }
 
 form .form-input {
+  display: flex;
   flex: 1;
-
-  background-color: lightgray;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
+form h3 {
+  width: 100%;
+  height: 10%;
+}
+
+.form-row {
+  flex-grow: 1;
+  width: 48%;
+  height: 20%;
+}
+
+.form-row label {}
 
 form .form-submit {
   flex: 1;
+  background-color: rgb(240, 240, 240);
 
 }
